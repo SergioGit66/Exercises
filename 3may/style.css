@@ -1,0 +1,21 @@
+.container{
+    height : 100vh;
+    display:flex;
+    flex-wrap: wrap;
+    
+ }
+ 
+ [class ^="box-"]{
+     width: 140px;
+     height: 140px;
+     background-color: skyblue;
+     border: 2px solid black;
+     font-size: 65px;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+ }
+    .box-2 {
+        flex:auto;
+        place-content:center;
+    }
